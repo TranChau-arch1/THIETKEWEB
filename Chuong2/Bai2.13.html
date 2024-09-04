@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1{text-align: center;}
+    form{text-align: center;}
+</style>
+<body>
+    <h1>Book a Table</h1>
+    <form>
+        <LAbel for="Yourname"></LAbel>
+        <FIeldset id="Yourname">
+            <legend>Your name
+                <label for="yn"></label> <br>
+                <br>
+                <input type="text" id="yn" name="yn" required>
+            </legend>
+        </FIeldset>
+
+        <LAbel for="Sex"></LAbel>
+        <FIeldset id="Sex">
+            <legend>Sex</legend>
+                <input type="radio" id="m" name="m" value="Male">
+                <label for="m">Male</label>
+                <input type="radio" id="f" name="f" value="Female" checked>
+                <label for="f">Female</label> 
+        </FIeldset>
+
+
+        <LAbel for="Size"></LAbel>
+        <FIeldset id="Size">
+            <legend>Size</legend>
+                <input type="radio" id="2" name="m">
+                <label for="2">2-person table</label>
+                <input type="radio" id="4" name="4" value="4-person table" checked>
+                <label for="4">4-person table</label>
+                <input type="radio" id="6" name="m">
+                <label for="6">6-person table</label> 
+        </FIeldset>
+
+        <LAbel for="Location"></LAbel>
+        <FIeldset id="Location">
+            <legend>Location</legend>
+                <input type="radio" id="i" name="m">
+                <label for="i">Indoor</label>
+                <input type="radio" id="o" name="m" checked>
+                <label for="o">Outdoor</label>
+                
+        </FIeldset>
+
+        <input type="submit" value="Book table">
+    </form>
+
+</body>
+</html>
